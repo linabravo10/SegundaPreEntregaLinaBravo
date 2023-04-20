@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+/**Esto es para poder calcular los rem mas sencillos, y contarlos como 10px*/
+
+*{
+    margin: 0rem;
+    padding: 0;
+    
+}
+
+
+body{
+    font-family: 'Lato';
+    font-weight: 400;
+
+}
+
+.listaNavegacion{
+    list-style: none;
+    display: -webkit-inline-box;
+    height: 8vh;
+    text-align: left;
+/**Con este modificamos nuestra lista de navegación*/
+
+   
+   
+}
+/**/
+h1{
+    color: rgb(226, 110, 43);
+    font-size: 7rem;
+}
+/**Esto es para seleccionar el color y el tamaño de la fuente de nuestro titulo principal**/
+
+h2{
+    font-size: 3rem;
+}
+/**Este para modificar nuestros subtitulos**/
+
+p{
+    font-size: 2rem;
+}
+/*este para modificar nuestros párrafos*/
+
+/**color para el titulo*/
+div{
+    background-color: bisque;
+}
+
+.colorFondo{
+    background-color: coral;
+}
+
+.linkNav{
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+   
+}
+
+.principal{
+    background-image: url("../assets/img/portadaperritos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.centrar{
+    text-align: center;
+}
+
+.icon{
+    color: black;
+    font-size: 35px;
+    align-items: center
+    ;
+}
+
+.listaordenada{
+    font-size: 2rem;
+
+}
+
+.derechosreservados{
+    font-size: 1rem;
+}
