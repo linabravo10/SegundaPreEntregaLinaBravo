@@ -141,6 +141,24 @@ p{
     font-size: 3rem;
 }
 
+.izquierda{
+    background-image:url("../assets/img/smiley-woman-playing-shelter-with-dog-waiting-be-adopted.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:50vh;
+}
+.derecha{
+    height:50vh;
+    border: 1px solid rgb(219, 177, 194);
+    background-color: rgb(221, 156, 181);
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
 .redes{
     background-position: center;
 }
