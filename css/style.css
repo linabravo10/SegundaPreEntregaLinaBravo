@@ -1,168 +1,144 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-
-html{
-    font-size: 62.5%;
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+html {
+  font-size: 62.5%;
 }
+
 /**Esto es para poder calcular los rem mas sencillos, y contarlos como 10px*/
-
-*{
-    margin: 0rem;
-    padding: 0;
-    
+* {
+  margin: 0rem;
+  padding: 0;
 }
 
-.header{
-    background-color: antiquewhite;
+header {
+  background-color: antiquewhite;
+}
+header .nav-item {
+  font-size: 2rem;
 }
 
-
-
-.nav-item{
-    font-size: 2rem;
-    
+main .principal {
+  background-image: url("../assets/img/group-portrait-adorable-puppies.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-
-body{
-    font-family: 'Lato';
-    font-weight: 400;
-
+body {
+  font-family: "Lato";
+  font-weight: 400;
 }
-
 
 /**/
-h1{
-    color: rgb(0, 0, 0);
-    font-size: 7rem;
-}
 /**Esto es para seleccionar el color y el tamaño de la fuente de nuestro titulo principal**/
-
-h2{
-    font-size: 3rem;
+h2 {
+  font-size: 3rem;
 }
+
 /**Este para modificar nuestros subtitulos**/
-
-p{
-    font-size: 2rem;
+p {
+  font-size: 2rem;
 }
-/*este para modificar nuestros párrafos*/
 
+/*este para modificar nuestros párrafos*/
 /**color para el titulo*/
 /**div{
     background-color: antiquewhite;
 }*/
-
-.colorFondo{
-    text-align: center;
-    font-size: 2rem;
-    background-color: hotpink;
+.colorFondo {
+  text-align: center;
+  font-size: 2rem;
+  background-color: hotpink;
 }
 
+/** background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
 
-.principal{
-    background-image: url("../assets/img/group-portrait-adorable-puppies.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-   
-
-}
-   /** background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-  
-   /** background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 88%;
-    display:flex;
-    justify-content: flex-end;
-    align-items:center;*/
-
-
-.centrar{
-    text-align: center;
+/** background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 88%;
+ display:flex;
+ justify-content: flex-end;
+ align-items:center;*/
+.icon {
+  color: black;
+  font-size: 35px;
+  align-items: center;
 }
 
-.icon{
-    color: black;
-    font-size: 35px;
-    align-items: center
-    ;
+.texto {
+  text-align: center;
 }
 
-.texto{
-    text-align: center;
+.contenedor {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
-.contenedor{
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+.listaordenada {
+  font-size: 2rem;
 }
 
-
-.listaordenada{
-    font-size: 2rem;
-
-}
-
-.derechosreservados{
-    font-size: 1rem;
+.derechosreservados {
+  font-size: 1rem;
 }
 
 .testimonios {
-    margin-bottom:2rem
- 
+  margin-bottom: 2rem;
 }
 
-.card-group{
-    column-gap: 10px;
-
+.card-group {
+  column-gap: 10px;
 }
 
-.card-img-top{
-    width: 100%;
-    height: 50%;
-    object-fit: cover;
+.card-img-top {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
 }
 
-.containermetas{
-    text-align: center;
-    font-size: 2rem;
-    background-color: hotpink;
+.containermetas {
+  text-align: center;
+  font-size: 2rem;
+  background-color: hotpink;
 }
 
-.card-title{
-    text-align: center;
-    font-size: 3rem;
+.card-title {
+  text-align: center;
+  font-size: 3rem;
 }
 
-.izquierda{
-    background-image:url("../assets/img/smiley-woman-playing-shelter-with-dog-waiting-be-adopted.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    height:50vh;
-}
-.derecha{
-    height:50vh;
-    border: 1px solid rgb(219, 177, 194);
-    background-color: rgb(221, 156, 181);
-    color:white;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
+.izquierda {
+  background-image: url("../assets/img/smiley-woman-playing-shelter-with-dog-waiting-be-adopted.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
 }
 
-.redes{
-    background-position: center;
+.derecha {
+  height: 50vh;
+  border: 1px solid rgb(219, 177, 194);
+  background-color: rgb(221, 156, 181);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.formulario{
-    font-size: 2rem;
+.redes {
+  background-position: center;
 }
+
+.formulario {
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
