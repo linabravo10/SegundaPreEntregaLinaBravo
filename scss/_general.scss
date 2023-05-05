@@ -5,3 +5,105 @@ h1{
         text-align: center;
     }
 }
+
+h2{
+    font-size: 3rem;
+}
+/**Este para modificar nuestros subtitulos**/
+
+
+p{
+    font-size: 2rem;
+}
+/*este para modificar nuestros párrafos*/
+
+.colorFondo{
+    text-align: center;
+    font-size: 2rem;
+    background-color: hotpink;
+}
+
+
+
+.icon{
+    color: black;
+    font-size: 35px;
+    align-items: center
+    ;
+}
+
+.texto{
+    text-align: center;
+}
+
+.contenedor{
+    margin-left: $tamanotexto4;
+    margin-right: $tamanotexto4;
+    margin-top: $tamanotexto4;
+    margin-bottom: $tamanotexto4;
+}
+
+
+.listaordenada{
+    font-size: $tamanotexto;
+
+}
+
+.derechosreservados{
+    font-size: 1rem;
+}
+
+.testimonios {
+    margin-bottom:$tamanotexto
+ 
+}
+
+.card-group{
+    column-gap: 10px;
+
+}
+
+.card-img-top{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.containermetas{
+    text-align: center;
+    font-size: $tamanotexto;
+    background-color: hotpink;
+}
+
+.card-title{
+    text-align: center;
+    font-size: $tamanotexto2;
+}
+
+.izquierda{
+    background-image:url("../assets/img/smiley-woman-playing-shelter-with-dog-waiting-be-adopted.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:50vh;
+}
+.derecha{
+    height:50vh;
+    border: 1px solid rgb(219, 177, 194);
+    background-color: rgb(221, 156, 181);
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes{
+    background-position: center;
+}
+
+.formulario{
+    font-size: $tamanotexto;
+}
+
+
