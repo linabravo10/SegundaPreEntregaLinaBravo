@@ -14,21 +14,21 @@ html{
     
 }
 
-body{
-    font-family: 'Lato';
-    font-weight: 400;
-   
-            }
+
 
 
 @import"_variables.scss";
-@import"_header";
-@import"_main";
-@import"_footer";
+@import"_general.scss";
+@import"_header.scss";
+@import"_body.scss";
+@import"_main.scss";
+@import"_cards.scss";
+@import"_testimonios.scss";
 @import"_comopuedoayudar";
-@import"_contactanos";
-@import"_jornadas";
-@import"_testimonios";
+@import"_contactanos.scss";
+@import"_jornadas.scss";
+@import"_footer.scss";
+
 
 
    
