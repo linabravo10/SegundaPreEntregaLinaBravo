@@ -1,17 +1,53 @@
 .izquierda{
     background-image:url("../assets/img/smiley-woman-playing-shelter-with-dog-waiting-be-adopted.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    height:50vh;
+    background-repeat:$background-repeat-jornadas;
+    background-size:$background-size-jornadas;
+    background-position:$background-position-jornadas;
+    height:$height-jornadas;
 }
 .derecha{
-    height:50vh;
-    border: 1px solid rgb(219, 177, 194);
-    background-color: rgb(221, 156, 181);
-    color:white;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
+    height:$height-jornadas;
+    border: $border-jornadas;
+    background-color:$background-color-jornadas;
+    color:$color-jornadas;
+    display:$display-jornadas;
+    flex-direction:$flex-direction-jornadas;
+    align-items: $align-items-jornadas;
+    justify-content: $justify-content-jornadas;
+}
+
+.izquierda2{
+    background-image:url("../assets/img/jornada\ acompanamiento.jpg");
+    background-repeat:$background-repeat-jornadas;
+    background-size:$background-size-jornadas;
+    background-position:$background-position-jornadas;
+    height:$height-jornadas;
+}
+.derecha2{
+    height:$height-jornadas;
+    border: $border-jornadas;
+    background-color:$background-color-jornadas;
+    color:$color-jornadas;
+    display:$display-jornadas;
+    flex-direction:$flex-direction-jornadas;
+    align-items: $align-items-jornadas;
+    justify-content: $justify-content-jornadas;
+}
+
+.izquierda3{
+    background-image:url("../assets/img/jornada\ alimentacion.jpg");
+    background-repeat:$background-repeat-jornadas;
+    background-size:$background-size-jornadas;
+    background-position:$background-position-jornadas;
+    height:$height-jornadas;
+}
+.derecha3{
+    height:$height-jornadas;
+    border: $border-jornadas;
+    background-color:$background-color-jornadas;
+    color:$color-jornadas;
+    display:$display-jornadas;
+    flex-direction:$flex-direction-jornadas;
+    align-items: $align-items-jornadas;
+    justify-content: $justify-content-jornadas;
 }
