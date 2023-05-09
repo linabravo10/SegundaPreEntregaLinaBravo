@@ -6,7 +6,7 @@ html{
 }
 /**Esto es para poder calcular los rem mas sencillos, y contarlos como 10px*/
 
-@import"_variables.scss";
+
 
 *{
     margin: 0rem;
@@ -14,8 +14,14 @@ html{
     
 }
 
+body{
+    font-family: 'Lato';
+    font-weight: 400;
+   
+            }
 
 
+@import"_variables.scss";
 @import"_header";
 @import"_main";
 @import"_footer";
@@ -24,137 +30,9 @@ html{
 @import"_jornadas";
 @import"_testimonios";
 
-body{
-    font-family: 'Lato';
-    font-weight: 400;
-   
-            }
+
    
     
 
 
-
-/**/
-
-/**Esto es para seleccionar el color y el tamaño de la fuente de nuestro titulo principal**/
-
-h2{
-    font-size: 3rem;
-}
-/**Este para modificar nuestros subtitulos**/
-
-p{
-    font-size: 2rem;
-}
-/*este para modificar nuestros párrafos*/
-
-/**color para el titulo*/
-/**div{
-    background-color: antiquewhite;
-}*/
-
-.colorFondo{
-    text-align: center;
-    font-size: 2rem;
-    background-color: hotpink;
-}
-
-
-
-   /** background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-  
-   /** background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 88%;
-    display:flex;
-    justify-content: flex-end;
-    align-items:center;*/
-
-
-
-
-.icon{
-    color: black;
-    font-size: 35px;
-    align-items: center
-    ;
-}
-
-.texto{
-    text-align: center;
-}
-
-.contenedor{
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
-
-
-.listaordenada{
-    font-size: 2rem;
-
-}
-
-.derechosreservados{
-    font-size: 1rem;
-}
-
-.testimonios {
-    margin-bottom:2rem
- 
-}
-
-.card-group{
-    column-gap: 10px;
-
-}
-
-.card-img-top{
-    width: 100%;
-    height: 50%;
-    object-fit: cover;
-}
-
-.containermetas{
-    text-align: center;
-    font-size: 2rem;
-    background-color: hotpink;
-}
-
-.card-title{
-    text-align: center;
-    font-size: 3rem;
-}
-
-.izquierda{
-    background-image:url("../assets/img/smiley-woman-playing-shelter-with-dog-waiting-be-adopted.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    height:50vh;
-}
-.derecha{
-    height:50vh;
-    border: 1px solid rgb(219, 177, 194);
-    background-color: rgb(221, 156, 181);
-    color:white;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-}
-
-.redes{
-    background-position: center;
-}
-
-.formulario{
-    font-size: $tamanotexto;
-}
 
