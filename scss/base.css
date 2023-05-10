@@ -1,0 +1,172 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+/**Esto es para poder calcular los rem mas sencillos, y contarlos como 10px*/
+* {
+  margin: 0rem;
+  padding: 0;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 7rem;
+}
+h1 .centrar {
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+/**Este para modificar nuestros subtitulos**/
+p {
+  font-size: 2rem;
+}
+
+/*este para modificar nuestros párrafos*/
+.texto {
+  text-align: center;
+}
+
+.listaordenada {
+  font-size: 2rem;
+}
+
+header {
+  background-color: antiquewhite;
+}
+header .nav-item {
+  font-size: 2rem;
+}
+
+body {
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+main .principal {
+  background-image: url("../assets/img/group-portrait-adorable-puppies.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+main .principal .colorFondo {
+  text-align: center;
+  font-size: 2rem;
+  background-color: hotpink;
+}
+main .principal .colorFondo .icon {
+  color: black;
+  font-size: 35px;
+  align-items: center;
+}
+
+.containermetas {
+  text-align: center;
+  font-size: 2rem;
+  background-color: hotpink;
+}
+
+.card-group {
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.card-group .card-img-top {
+  width: 100%;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card-group .card-img-top .card-title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.texto {
+  text-align: center;
+}
+
+.testimonios {
+  margin-bottom: 2rem;
+}
+
+.contenedor {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.formulario {
+  font-size: 2rem;
+}
+
+.izquierda {
+  background-image: url("../assets/img/smiley-woman-playing-shelter-with-dog-waiting-be-adopted.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+.derecha {
+  height: 50vh;
+  border: 1px solid rgb(219, 177, 194);
+  background-color: rgb(221, 156, 181);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.izquierda2 {
+  background-image: url("../assets/img/jornada acompanamiento.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+.derecha2 {
+  height: 50vh;
+  border: 1px solid rgb(219, 177, 194);
+  background-color: rgb(221, 156, 181);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.izquierda3 {
+  background-image: url("../assets/img/jornada alimentacion.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+.derecha3 {
+  height: 50vh;
+  border: 1px solid rgb(219, 177, 194);
+  background-color: rgb(221, 156, 181);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.derechosreservados {
+  font-size: 1rem;
+}
+
+.redes {
+  background-position: center;
+}/*# sourceMappingURL=base.css.map */
